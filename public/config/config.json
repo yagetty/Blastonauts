@@ -14,5 +14,7 @@
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "LooksRare",
   "MARKETPLACE_LINK": "https://looksrare.org/collections/0x19815F154401A4eF49784eb3A605D64c14c8b126",
+  "MARKETPLACE2": "OpenSea",
+  "MARKETPLACE2_LINK": "https://opensea.io/collection/blastonauts",
   "SHOW_BACKGROUND": true
 }

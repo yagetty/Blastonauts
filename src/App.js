@@ -248,16 +248,6 @@ function App() {
               }}
             >
               <StyledButton
-                onClick={(e) => {
-                  window.open("/config/roadmap.pdf", "_blank");
-                }}
-                style={{
-                  margin: "5px",
-                }}
-              >
-                Roadmap
-              </StyledButton>
-              <StyledButton
                 style={{
                   margin: "5px",
                 }}
@@ -266,6 +256,16 @@ function App() {
                 }}
               >
                 {CONFIG.MARKETPLACE}
+              </StyledButton>
+              <StyledButton
+                style={{
+                  margin: "5px",
+                }}
+                onClick={(e) => {
+                  window.open(CONFIG.MARKETPLACE2_LINK, "_blank");
+                }}
+              >
+                {CONFIG.MARKETPLACE2}
               </StyledButton>
             </span>
             <s.SpacerSmall />

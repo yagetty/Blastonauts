@@ -25,22 +25,4 @@
 }
 ```
 
-Make sure you copy the contract ABI from remix and paste it in the `public/config/abi.json` file.
-(follow the youtube video if you struggle with this part).
-
-Now you will need to create and change 2 images and a gif in the `public/config/images` folder, `bg.png`, `example.gif` and `logo.png`.
-
-Next change the theme colors to your liking in the `public/config/theme.css` file.
-
-```css
-:root {
-  --primary: #ebc908;
-  --primary-text: #1a1a1a;
-  --secondary: #ff1dec;
-  --secondary-text: #ffffff;
-  --accent: #ffffff;
-  --accent-text: #000000;
-}
-```
-
 Happy Minting!
